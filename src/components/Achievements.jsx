@@ -1,7 +1,8 @@
 import React from "react";
-import { FaTrophy, FaPlane } from "react-icons/fa";
+import { FaTrophy, FaPlane, FaChalkboardTeacher } from "react-icons/fa";
 
 const achievements = [
+  // Achievements
   {
     title: "1st Position",
     details: "Final Examination of M.A Arabic (Al-Alamia)",
@@ -20,6 +21,34 @@ const achievements = [
     year: "2007",
     icon: <FaTrophy className="text-yellow-500 text-4xl" />,
   },
+
+  // Trainings
+  {
+    title: "Capacity Building Workshop",
+    details: "Islamic Finance – State Bank of Pakistan",
+    year: "2017",
+    icon: <FaChalkboardTeacher className="text-emerald-700 text-4xl" />,
+  },
+  {
+    title: "Trainer",
+    details: "ادوارى تحقیقی تربیت",
+    year: "—",
+    icon: <FaChalkboardTeacher className="text-emerald-700 text-4xl" />,
+  },
+  {
+    title: "Organizer",
+    details: "Quiz Competition on Quran",
+    year: "2009",
+    icon: <FaChalkboardTeacher className="text-emerald-700 text-4xl" />,
+  },
+  {
+    title: "Organizer",
+    details: "Quiz Competition on Hadith",
+    year: "2010",
+    icon: <FaChalkboardTeacher className="text-emerald-700 text-4xl" />,
+  },
+
+  // Foreign Trip
   {
     title: "Foreign Trip",
     details: "Umrah & Visit of University of Al-Madina, Saudi Arabia",
@@ -35,12 +64,12 @@ const Achievements = () => {
       id="achievements"
     >
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-          Achievements
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-slate-800">
+          Achievements & Trainings
         </h2>
         <div className="w-24 h-1 bg-emerald-700 mx-auto mb-12 rounded-full"></div>
 
-        <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {achievements.map((item, index) => (
             <div
               key={index}
@@ -52,7 +81,7 @@ const Achievements = () => {
                 {item.title}
               </h3>
               <p className="text-gray-700 mb-2">{item.details}</p>
-              <p className="text-sm text-teal-600 font-medium">{item.year}</p>
+              <p className="text-sm text-emerald-700 font-medium">{item.year}</p>
             </div>
           ))}
         </div>
