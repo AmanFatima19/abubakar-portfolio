@@ -16,15 +16,15 @@ const HeroSection = () => {
         </div>
 
         <div className="flex-1 text-center md:text-left">
-          <h1 className="text-4xl md:text-6xl font-bold text-slate-800 ">
-            M. Abubakar
-          </h1>
+          <h3 className="text-6xl md:text-5xl font-bold text-slate-800 ">
+            Prof. Dr. Abubakar
+          </h3>
 
           <p className="mt-4 text-lg md:text-2xl font-medium text-emerald-700">
             PhD Scholar (Islamic Studies)
           </p>
 
-          <p className="mt-6 text-base md:text-lg text-gray-600 leading-relaxed max-w-xl">
+          <p className="mt-3 text-base md:text-lg text-gray-600 leading-relaxed max-w-xl">
             I am an academic and researcher with expertise in Islamic Studies,
             Arabic, and education. Currently pursuing a PhD at UET Lahore with
             extensive teaching experience across universities and colleges.
@@ -34,7 +34,7 @@ const HeroSection = () => {
             <a
               href="/CV M Abubakar f.pdf"
               download="Muhammad-Abubakar-CV.pdf"
-              className="px-6 py-3 bg-emerald-800 text-white rounded-lg shadow-md hover:bg-slate-700 hover:shadow-lg transition"
+              className="px-6 py-3 bg-emerald-800 text-white rounded-lg shadow-md hover:bg-emerald-600 hover:shadow-lg transition"
             >
               Download CV
             </a>
