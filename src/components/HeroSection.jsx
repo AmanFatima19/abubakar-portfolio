@@ -26,9 +26,7 @@ const HeroSection = () => {
           </p>
 
           <p className="mt-3 text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed max-w-xl mx-auto md:mx-0">
-            I am an academic and researcher with expertise in Islamic Studies,
-            Arabic, and education. Currently pursuing a PhD at UET Lahore with
-            extensive teaching experience across universities and colleges.
+           Dedicated academic and researcher with expertise in Islamic Studies, Arabic, and Education, with extensive teaching and scholarly experience across leading institutions.
           </p>
 
           {/* Buttons */}
